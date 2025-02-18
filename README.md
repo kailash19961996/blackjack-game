@@ -45,6 +45,7 @@ Clone this repository:
    http://localhost:3000
    ```
 4. Play the game! All gameplay actions are logged in `GameStats.txt`.
+![Screenshot 2025-02-18 at 9 21 48 PM](https://github.com/user-attachments/assets/096cabac-ec5b-4932-b37e-002d6ab6e9c1)
 
 ## Hi-Lo Card Counting Strategy Analysis
 - After playing the game, users can run a dedicated script to analyze how well their decisions align with the Hi-Lo card counting strategy.
