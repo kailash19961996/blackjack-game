@@ -23,7 +23,7 @@ Before running this project, ensure you have:
    ```
 3. Run the Docker container:
    ```sh
-   docker run -p 3000:3000 blackjack-game
+   docker run -p 3000:3000 -v $(pwd):/app blackjack-game
    ```
 4. Open your browser and go to:
    ```
