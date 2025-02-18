@@ -5,6 +5,8 @@ This is a simple Blackjack game built with Node.js. Players can play Blackjack, 
 
 Additionally, a **Hi-Lo card counting strategy** feature is included. Once the game is run, users can execute a separate file to analyze how well their strategy aligns with card counting techniques.
 
+![Screenshot 2025-02-18 at 9 36 26 PM](https://github.com/user-attachments/assets/71c685a2-2e00-45de-a789-625c9ff81108)
+
 ## Prerequisites
 Before running this project, ensure you have:
 - **Docker** installed on your machine ([Download Docker](https://www.docker.com/get-started))
