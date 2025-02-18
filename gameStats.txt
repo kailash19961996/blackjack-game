@@ -1,1 +1,42 @@
 Hands played = 0 ; Current Balance = 1000
+Reshuffled
+player card dealt : J
+player card dealt : J
+dealer card dealt : 10
+player decision : hit
+player card dealt : K
+dealer card revealed : Q
+Bust! You lose 10 ; Hands played: 1 ; Net Change: -10
+player card dealt : 7
+player card dealt : 5
+dealer card dealt : 4
+player decision : stand
+dealer card revealed : 2
+dealer decision : hit
+dealer card dealt : 9
+dealer decision : hit
+dealer card dealt : 6
+dealer decision : stand
+You lose 100 ; Hands played: 2 ; Net Change: -110
+player card dealt : A
+player card dealt : 4
+dealer card dealt : 7
+dealer card revealed : 3
+player decision : stand
+dealer decision : hit
+dealer card dealt : 4
+dealer decision : hit
+dealer decision : stand
+dealer card dealt : K
+You win! You gain 100 ; Hands played: 3 ; Net Change: -10
+player card dealt : 7
+player card dealt : 5
+dealer card dealt : Q
+player decision : stand
+dealer card revealed : 8
+dealer decision : stand
+You lose 100 ; Hands played: 4 ; Net Change: -110
+Reshuffled
+player card dealt : 2
+player card dealt : 9
+dealer card dealt : 4
