@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern Blackjack</title>
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Blackjack</h1>
+    <div id="money-container">
+      <p id="money">Money: $1000</p>
+      <button id="restart-game-btn">Restart Game</button>
+    </div>
+    <p id="bet-display">Bet: $<span id="current-bet">0</span></p>
+    <div id="betting-area">
+      <div id="coin-buttons">
+        <button class="coin-btn" data-value="1">$1</button>
+        <button class="coin-btn" data-value="10">$10</button>
+        <button class="coin-btn" data-value="100">$100</button>
+        <button class="coin-btn" data-value="500">$500</button>
+      </div>
+      <button id="place-bet-btn">Place Bet</button>
+      <button id="clear-bet-btn">Clear Bet</button>
+    </div>
+
+    <div id="game">
+      <div id="dealer">
+        <h2>Dealer</h2>
+        <div class="cards" id="dealer-cards"></div>
+        <p id="dealer-score"></p>
+      </div>
+      <hr>
+      <div id="player">
+        <h2>Player Hand</h2>
+        <div id="player-hands"></div>
+      </div>
+      <div id="controls">
+        <button id="hit-btn">Hit</button>
+        <button id="stand-btn">Stand</button>
+        <button id="double-btn">Double Down</button>
+        <button id="new-game-btn" style="display:none;">New Game</button>
+      </div>
+      <div id="message"></div>
+    </div>
+  </div>
+
+  <!-- Modal Popup for Round Results -->
+  <div id="result-modal" class="modal">
+    <div class="modal-content">
+      <span id="modal-close">&times;</span>
+      <h2>Round Result</h2>
+      <p id="modal-message"></p>
+      <button id="modal-ok">OK</button>
+    </div>
+  </div>
+
+  <!-- Toast Notification for Errors -->
+  <div id="toast"></div>
+
+  <!-- Link to external JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
