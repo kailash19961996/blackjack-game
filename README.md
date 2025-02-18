@@ -11,7 +11,22 @@ Before running this project, ensure you have:
 - Alternatively, Node.js installed for running locally ([Download Node.js](https://nodejs.org/))
 
 ## Getting Started
-### Running with Docker (Recommended)
+
+### Running Locally (Without Docker) (Recommended)
+1. Install dependencies:
+   ```sh
+   npm install
+   ```
+2. Start the server:
+   ```sh
+   node server.js
+   ```
+3. Open your browser and visit:
+   ```
+   http://localhost:3000
+   ```
+   
+### Running with Docker 
 1. Clone this repository:
    ```sh
    git clone https://github.com/your-username/blackjack_test_v4.git
@@ -30,20 +45,6 @@ Before running this project, ensure you have:
    http://localhost:3000
    ```
 5. Play the game! All gameplay actions are logged in `GameStats.txt`.
-
-### Running Locally (Without Docker)
-1. Install dependencies:
-   ```sh
-   npm install
-   ```
-2. Start the server:
-   ```sh
-   node server.js
-   ```
-3. Open your browser and visit:
-   ```
-   http://localhost:3000
-   ```
 
 ## Hi-Lo Card Counting Strategy Analysis
 - After playing the game, users can run a dedicated script to analyze how well their decisions align with the Hi-Lo card counting strategy.
