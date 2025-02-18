@@ -54,11 +54,4 @@ Before running this project, ensure you have:
 - Every action performed in the game is recorded in `GameStats.txt`.
 - This file helps track game progress and review past gameplay.
 
-## Contributing
-
-Feel free to fork this repository, create a feature branch, and submit a pull request!
-
-## License
-
-This project is licensed under the MIT License.
 
