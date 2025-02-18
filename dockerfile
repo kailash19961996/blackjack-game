@@ -4,6 +4,9 @@ FROM node:18
 # Set the working directory in the container
 WORKDIR /app
 
+# Create a volume for logs
+VOLUME ["/app/logs"]
+
 # Copy package.json and package-lock.json first to leverage Docker cache
 COPY package*.json ./
 
