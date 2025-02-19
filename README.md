@@ -1,4 +1,4 @@
-# Blackjack Game - Dockerized
+# Blackjack Game
 
 ## Overview
 This is a simple Blackjack game built with Node.js. Players can play Blackjack, and every action in the gameplay is logged in `GameStats.txt`.
